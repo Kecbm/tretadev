@@ -172,13 +172,13 @@ function App() {
           </a>
         </p>
         <p>
-          <a href='https://github.com/Kecbm' target='_blank' rel='noopener noreferrer'>
-            Klecianny Melo
+          <a href='https://github.com/ericviana' target='_blank' rel='noopener noreferrer'>
+            Eric Viana
           </a>
         </p>
         <p>
-          <a href='https://github.com/ericviana' target='_blank' rel='noopener noreferrer'>
-            Eric Viana
+          <a href='https://github.com/Kecbm' target='_blank' rel='noopener noreferrer'>
+            Klecianny Melo
           </a>
         </p>
       </footer>
