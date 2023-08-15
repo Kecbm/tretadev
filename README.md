@@ -2,4 +2,4 @@
 
 Frontend desenvolvido pelo [Eric Viana](https://github.com/ericviana)
 
-![frontend](./assets/frontend.png)
+![frontend](src/assets/frontend.png)
