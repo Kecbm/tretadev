@@ -63,12 +63,12 @@ function App() {
   };  
   
   return (
-    <div className="App">
-      <img width="64" height="64" src="https://img.icons8.com/arcade/64/fire-element.png" alt="fire-element"/>
+    <div>
+      <img width='64' height='64' src='https://img.icons8.com/arcade/64/fire-element.png' alt='fire-element'/>
       <h1 id='title'>Treta Dev</h1>
       <div>
         <button>
-          <a href="https://github.com/lincolixavier/tretadev/issues/new" target="_blank" rel="noopener noreferrer" id='btn-create'>
+          <a href='https://github.com/lincolixavier/tretadev/issues/new' target='_blank' rel='noopener noreferrer' id='btn-create'>
             Adicionar treta
           </a>
         </button>
@@ -165,6 +165,23 @@ function App() {
           </li>
         ))}
       </ul>
+      <footer>
+        <p>
+          <a href='https://github.com/Kecbm/tretadev' target='_blank' rel='noopener noreferrer'>
+            Repositório
+          </a>
+        </p>
+        <p>
+          <a href='https://github.com/Kecbm' target='_blank' rel='noopener noreferrer'>
+            Klecianny Melo
+          </a>
+        </p>
+        <p>
+          <a href='https://github.com/ericviana' target='_blank' rel='noopener noreferrer'>
+            Eric Viana
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
