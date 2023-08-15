@@ -1,0 +1,44 @@
+#title {
+    color: #fc5e48;
+}
+
+#btn-create {
+    background-color: #d64e3c;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-tag {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #fc5c6c;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-tag:hover {
+    background-color: #f83b4b;
+}
+
+.btn-tag-active {
+    color: red;
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
