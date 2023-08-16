@@ -70,7 +70,7 @@ function App() {
       <div>
         <a href='https://github.com/lincolixavier/tretadev/issues/new' target='_blank' rel='noopener noreferrer'>
           <button className='btn btn-create'>
-            <img width="20" height="20" src="https://img.icons8.com/external-simple-solid-edt.graphics/50/external-Plus-add-and-remove-simple-solid-edt.graphics-2.png" alt="Plus"/> Adicionar treta
+            <img width="20" height="20" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FFFFFF/external-Plus-essential-collection-bearicons-glyph-bearicons.png"  alt="Plus" id="icon-plus" /> Adicionar treta
           </button>
         </a>
       </div>
@@ -270,17 +270,17 @@ function App() {
 
       <footer>
         <p>
-          <a href='https://github.com/Kecbm/tretadev' target='_blank' rel='noopener noreferrer'>
+          <a href='https://github.com/Kecbm/tretadev' target='_blank' rel='noopener noreferrer' className='text-footer'>
             Repositório
           </a>
         </p>
         <p>
-          <a href='https://github.com/ericviana' target='_blank' rel='noopener noreferrer'>
+          <a href='https://github.com/ericviana' target='_blank' rel='noopener noreferrer' className='text-footer'>
             Eric Viana
           </a>
         </p>
         <p>
-          <a href='https://github.com/Kecbm' target='_blank' rel='noopener noreferrer'>
+          <a href='https://github.com/Kecbm' target='_blank' rel='noopener noreferrer' className='text-footer'>
             Klecianny Melo
           </a>
         </p>
