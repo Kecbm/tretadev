@@ -24,6 +24,7 @@ function App() {
         const issuesFormated = allIssues.map((issue) => {
           return {
             ...issue,
+            body: limitingBodySize(issue.body),
             created_at: dateBrasilian(issue.created_at),
           }
         })
@@ -43,6 +44,20 @@ function App() {
     const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
     const brasilFormattedDate = isoDate.toLocaleDateString('pt-BR', options);
     return brasilFormattedDate;
+  }
+
+  const limitingBodySize = (body) => {
+    var limitedString;
+
+    if (body !== null && body?.length < 500) {
+      return body;
+    } else if (body?.length > 500) {
+      limitedString = body.slice(0, 300) + "...";
+    } else {
+      console.log("body is null");
+    }
+
+    return limitedString;
   }
 
   const handleTagClick = (tags) => {
@@ -233,7 +248,7 @@ function App() {
         </button>
       </div>
 
-      <div>
+      <div className='section-cards'>
         {filteredIssues.map(issue => (
           <div className='card'>
             {/* <div className='card-header'>
@@ -282,6 +297,11 @@ function App() {
         <p>
           <a href='https://github.com/Kecbm' target='_blank' rel='noopener noreferrer' className='text-footer'>
             Klecianny Melo
+          </a>
+        </p>
+        <p>
+          <a href='https://github.com/lincolixavier' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            Lincoli Xavier
           </a>
         </p>
       </footer>

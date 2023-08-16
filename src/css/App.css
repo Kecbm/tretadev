@@ -5,6 +5,7 @@
     font-family: 'Montserrat';
     font-size: 50px;
     font-weight: 700;
+    text-align: center;
 }
 
 a {
@@ -58,12 +59,20 @@ a {
     font-weight: 700;
 }
 
+.section-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .card {
-    max-width: 350px;
-    margin: 90px 90px 90px 90px;
+    width: 350px;
+    height: 600px;
+    margin: 20px 20px 20px 20px;
     padding: 24px;
     border-radius: 15px;
-    box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05), 0px 40px 30px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.05), 0px 20px 15px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* .card-product-img {
@@ -90,10 +99,11 @@ a {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 15px;
+    overflow-wrap: break-word;
 }
 
 .card-title:hover {
-    color: red;
+    color: #e21c42;
 }
 
 .card-text {
@@ -103,6 +113,9 @@ a {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 23px;
+    max-height: 300px;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
 }
 
 .card-body .wrapper {
@@ -119,7 +132,7 @@ a {
 }
 
 .card-price {
-    color: orange;
+    color: #f43f51;
 }
 
 .card-icon {
@@ -127,7 +140,7 @@ a {
 }
 
 .card-countdown {
-    color: blue;
+    color: #c98405;
 }
 
 .card-footer {
@@ -151,13 +164,13 @@ a {
 }
 
 .card-author-name a {
-    color: green;
+    color: #e05a16;
     font-family: 'Outfit';
     font-weight: 400;
 }
 
 .card-author-name a:hover {
-    color: yellow;
+    color: #943618;
 }
 
 .text-footer {
