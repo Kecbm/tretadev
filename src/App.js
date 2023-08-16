@@ -231,17 +231,6 @@ function App() {
           Politica
         </button>
       </div>
-      {/* <ul>
-        {filteredIssues.map(issue => (
-          <li key={issue.id}>
-            <h2><a href={issue.html_url} target='_blank' rel="noreferrer">{issue.title}</a></h2>
-            <p>{issue.body}</p>
-            <p>Criada por: <a href={issue.user.html_url} target='_blank' rel="noreferrer">{issue.user.login}</a></p>
-            <img src={issue.user.avatar_url} alt={issue.user.login} className='user-image' />
-            <p>Criada em: {issue.created_at}</p>
-          </li>
-        ))}
-      </ul> */}
 
       <div>
         {filteredIssues.map(issue => (
