@@ -58,6 +58,7 @@ function App() {
         )
       );
   
+      console.log('filtered: ', filtered);
       setFilteredIssues(filtered);
     }
   };  
@@ -67,11 +68,11 @@ function App() {
       <img width='64' height='64' src='https://img.icons8.com/arcade/64/fire-element.png' alt='fire-element'/>
       <h1 id='title'>Treta Dev</h1>
       <div>
-        <button>
-          <a href='https://github.com/lincolixavier/tretadev/issues/new' target='_blank' rel='noopener noreferrer' className='btn btn-create'>
-            Adicionar treta
-          </a>
-        </button>
+        <a href='https://github.com/lincolixavier/tretadev/issues/new' target='_blank' rel='noopener noreferrer'>
+          <button className='btn btn-create'>
+            <img width="20" height="20" src="https://img.icons8.com/external-simple-solid-edt.graphics/50/external-Plus-add-and-remove-simple-solid-edt.graphics-2.png" alt="Plus"/> Adicionar treta
+          </button>
+        </a>
       </div>
       <div>
         <button
@@ -235,37 +236,37 @@ function App() {
       <div>
         {filteredIssues.map(issue => (
           <div className='card'>
-        {/* <div className='card-header'>
-          <div className='card-product-img'>
-            <img src="https://img.icons8.com/arcade/64/brick.png" alt="imagem de teste" />
-          </div>
-        </div> */}
+            {/* <div className='card-header'>
+              <div className='card-product-img'>
+                <img src="https://img.icons8.com/arcade/64/brick.png" alt="imagem de teste" />
+              </div>
+            </div> */}
 
-          <div className='card-body'>
-          <a href={issue.html_url} target='_blank' rel="noreferrer">
-          <h3 className='card-title'>{issue.title}</h3>
-          </a>
-          <p className='card-text'>{issue.body}</p>
-          <div className='wrapper'>
-          {/* <div className='card-price'>
-          <img src="https://img.icons8.com/arcade/64/bitcoin.png" alt="imagem de teste" className='card-icon' />
-          <span>0.041 ETH</span>
-          </div> */}
+              <div className='card-body' key={issue.id}>
+              <a href={issue.html_url} target='_blank' rel="noreferrer">
+              <h3 className='card-title'>{issue.title}</h3>
+              </a>
+              <p className='card-text'>{issue.body}</p>
+              <div className='wrapper'>
+              <div className='card-price'>
+              <img src="https://img.icons8.com/arcade/64/code-file.png" alt="Código" className='card-icon' />
+              <span>{issue.number}</span>
+              </div>
 
-          <div className='card-countdown'>
-          <img src="https://img.icons8.com/arcade/64/clock.png" alt="imagem de teste" className='card-icon' />
-          <span>{issue.created_at}</span>
-          </div>
-          </div>
-          </div>
+              <div className='card-countdown'>
+              <img src="https://img.icons8.com/arcade/64/clock.png" alt="Relógio" className='card-icon' />
+              <span>{issue.created_at}</span>
+              </div>
+              </div>
+              </div>
 
-          <div className='card-footer'>
-          <img src={issue.user.avatar_url}  alt={issue.user.login} className='card-author-img' />
-          <p className='card-author-name'>Criada por <a href={issue.user.html_url}>@{issue.user.login}</a></p>
+              <div className='card-footer'>
+              <a href={issue.user.html_url}><img src={issue.user.avatar_url}  alt={issue.user.login} className='card-author-img' /></a>
+              <p className='card-author-name'>Criada por <a href={issue.user.html_url}>@{issue.user.login}</a></p>
+              </div>
+              </div>
+            ))}
           </div>
-          </div>
-        ))}
-      </div>
 
       <footer>
         <p>
