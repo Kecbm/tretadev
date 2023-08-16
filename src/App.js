@@ -52,7 +52,7 @@ function App() {
     if (body !== null && body?.length < 500) {
       return body;
     } else if (body?.length > 500) {
-      limitedString = body.slice(0, 300) + "...";
+      limitedString = body.slice(0, 300) + " ...";
     } else {
       console.log("body is null");
     }
