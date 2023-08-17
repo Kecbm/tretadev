@@ -84,7 +84,7 @@ function App() {
   
   return (
     <div id='home'>
-      <img width='64' height='64' src='https://img.icons8.com/arcade/64/fire-element.png' alt='fire-element'/>
+      <img width='64' height='64' src='https://img.icons8.com/arcade/64/fire-element.png' alt='fire-element' id='fire-icon'/>
       <h1 id='title'>Treta Dev</h1>
       <div>
         <a href='https://github.com/lincolixavier/tretadev/issues/new' target='_blank' rel='noopener noreferrer'>

@@ -9,6 +9,10 @@
     background-color: #f4ede4;
 }
 
+#fire-icon {
+    padding: 20px;
+}
+
 #title {
     color: #A22412;
     font-family: 'Montserrat';
@@ -103,6 +107,8 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 30px;
+    height: fit-content;
+    max-width: 100%;
 }
 
 .card {
