@@ -79,7 +79,7 @@ function App() {
   };  
   
   return (
-    <div>
+    <div id='home'>
       <img width='64' height='64' src='https://img.icons8.com/arcade/64/fire-element.png' alt='fire-element'/>
       <h1 id='title'>Treta Dev</h1>
       <div>
@@ -89,7 +89,7 @@ function App() {
           </button>
         </a>
       </div>
-      <div>
+      <div id='btn-section'>
         <button
           onClick={() => handleTagClick(['todas'])}
           className={selectedTag === 'todas' ? 'btn btn-tag-active' : 'btn  btn-tag'}
@@ -286,22 +286,49 @@ function App() {
       <footer>
         <p>
           <a href='https://github.com/Kecbm/tretadev' target='_blank' rel='noopener noreferrer' className='text-footer'>
-            Repositório
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/github.png" alt="github"/> Repositório
           </a>
         </p>
-        <p>
+        <p className='developer'>
           <a href='https://github.com/ericviana' target='_blank' rel='noopener noreferrer' className='text-footer'>
             Eric Viana
           </a>
+          <a href='https://github.com/ericviana' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/github.png" alt="github"/>
+          </a>
+          <a href='https://www.linkedin.com/in/eric-viana/' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/linkedin.png" alt="linkedin"/>
+          </a>
+          <a href='https://twitter.com/ericvna' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/twitter.png" alt="twitter"/>
+          </a>
         </p>
-        <p>
+        <p className='developer'>
           <a href='https://github.com/Kecbm' target='_blank' rel='noopener noreferrer' className='text-footer'>
             Klecianny Melo
           </a>
+          <a href='https://github.com/Kecbm' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/github.png" alt="github"/>
+          </a>
+          <a href='https://www.linkedin.com/in/kecbm/' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/linkedin.png" alt="linkedin"/>
+          </a>
+          <a href='https://twitter.com/Kecbm' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/twitter.png" alt="twitter"/>
+          </a>
         </p>
-        <p>
+        <p className='developer'>
           <a href='https://github.com/lincolixavier' target='_blank' rel='noopener noreferrer' className='text-footer'>
             Lincoli Xavier
+          </a>
+          <a href='https://github.com/lincolixavier' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/github.png" alt="github"/>
+          </a>
+          <a href='https://www.linkedin.com/in/lincoli-xavier/' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/linkedin.png" alt="linkedin"/>
+          </a>
+          <a href='https://twitter.com/lincolixavier' target='_blank' rel='noopener noreferrer' className='text-footer'>
+            <img width="40" height="40" src="https://img.icons8.com/glyph-neue/64/772e17/twitter.png" alt="twitter"/>
           </a>
         </p>
       </footer>

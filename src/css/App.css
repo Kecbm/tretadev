@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@500;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background-color: #f4ede4;
+}
+
 #title {
     color: #A22412;
     font-family: 'Montserrat';
@@ -10,6 +19,10 @@
 
 a {
     text-decoration: none;
+}
+
+#btn-section {
+    padding: 20px;
 }
 
 .btn {
@@ -32,6 +45,7 @@ a {
     display: flex;
     align-items: center;
     margin-left: auto;
+    margin-right: 20px;
 }
 
 .btn-create:hover {
@@ -65,6 +79,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .card {
@@ -74,6 +89,7 @@ a {
     padding: 24px;
     border-radius: 15px;
     box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.05), 0px 20px 15px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
 
 /* .card-product-img {
@@ -174,13 +190,31 @@ a {
     color: #943618;
 }
 
+footer {
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #e05a16;
+}
+
 .text-footer {
-    color: #f67e0a;
+    color: #772e17;
     font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
 .text-footer:hover {
-    color: #b53b08;
+    color: #40160a;
+}
+
+.developer {
+    display: flex;
+    align-items: center;
 }
