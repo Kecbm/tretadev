@@ -85,4 +85,4 @@ O projeto é open-source onde qualquer pessoa da comunidade pode contribuir. Sin
 
 ---
 
-<p align="center">Projeto desenvolvido por [Klecianny Melo](https://www.linkedin.com/in/kecbm/) 😁</p>
+<p align="center">Projeto desenvolvido por <a href="https://www.linkedin.com/in/kecbm/">Klecianny Melo</a> 😁</p>
