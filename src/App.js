@@ -5,6 +5,7 @@ function App() {
   const [issues, setIssues] = useState([]);
   const [filteredIssues, setFilteredIssues] = useState([]);
   const [selectedTag, setSelectedTag] = useState('todas');
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     async function fetchIssues() {
@@ -31,6 +32,9 @@ function App() {
 
         setIssues(issuesFormated);
         setFilteredIssues(issuesFormated);
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 2500); 
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -76,7 +80,7 @@ function App() {
       console.log('filtered: ', filtered);
       setFilteredIssues(filtered);
     }
-  };  
+  };
   
   return (
     <div id='home'>
@@ -248,40 +252,36 @@ function App() {
         </button>
       </div>
 
-      <div className='section-cards'>
-        {filteredIssues.map(issue => (
-          <div className='card' key={issue.id}>
-            {/* <div className='card-header'>
-              <div className='card-product-img'>
-                <img src="https://img.icons8.com/arcade/64/brick.png" alt="imagem de teste" />
+      { isLoading ? <div id='section-loading'><div className='loader' /></div> :
+        <div className='section-cards'>
+          {filteredIssues.map(issue => (
+            <div className='card' key={issue.id}>
+              <div className='card-body'>
+                <a href={issue.html_url} target='_blank' rel="noreferrer">
+                <h3 className='card-title'>{issue.title}</h3>
+                </a>
+                <p className='card-text'>{issue.body}</p>
+                <div className='wrapper'>
+                  <div className='card-number'>
+                    <img src="https://img.icons8.com/arcade/64/code-file.png" alt="Código" className='card-icon' />
+                    <span>{issue.number}</span>
+                  </div>
+
+                  <div className='card-countdown'>
+                    <img src="https://img.icons8.com/arcade/64/clock.png" alt="Relógio" className='card-icon' />
+                    <span>{issue.created_at}</span>
+                  </div>
+                </div>
               </div>
-            </div> */}
 
-            <div className='card-body'>
-            <a href={issue.html_url} target='_blank' rel="noreferrer">
-            <h3 className='card-title'>{issue.title}</h3>
-            </a>
-            <p className='card-text'>{issue.body}</p>
-            <div className='wrapper'>
-            <div className='card-number'>
-            <img src="https://img.icons8.com/arcade/64/code-file.png" alt="Código" className='card-icon' />
-            <span>{issue.number}</span>
+              <div className='card-footer'>
+                <a href={issue.user.html_url}><img src={issue.user.avatar_url}  alt={issue.user.login} className='card-author-img' /></a>
+                <p className='card-author-name'>Criada por <a href={issue.user.html_url}>@{issue.user.login}</a></p>
+              </div>
             </div>
-
-            <div className='card-countdown'>
-            <img src="https://img.icons8.com/arcade/64/clock.png" alt="Relógio" className='card-icon' />
-            <span>{issue.created_at}</span>
-            </div>
-            </div>
-            </div>
-
-            <div className='card-footer'>
-            <a href={issue.user.html_url}><img src={issue.user.avatar_url}  alt={issue.user.login} className='card-author-img' /></a>
-            <p className='card-author-name'>Criada por <a href={issue.user.html_url}>@{issue.user.login}</a></p>
-            </div>
-            </div>
-            ))}
-          </div>
+          ))}
+        </div>
+      }
 
       <footer>
         <p>

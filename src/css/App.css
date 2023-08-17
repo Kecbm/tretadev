@@ -17,6 +17,29 @@
     text-align: center;
 }
 
+#section-loading {
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #e61c2d;
+    border-top-color: #ff6a77;
+    border-radius: 50%;
+    animation: rotate ease 1s infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 a {
     text-decoration: none;
 }
@@ -91,18 +114,6 @@ a {
     box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.05), 0px 20px 15px 5px rgba(0, 0, 0, 0.1);
     background-color: white;
 }
-
-/* .card-product-img {
-    position: relative;
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.card-product-img img {
-    width: 64px;
-    display: block;
-} */
 
 .card-body {
     padding: 23px 0;
