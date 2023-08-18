@@ -208,7 +208,7 @@ function App() {
           Flutter
         </button>
         <button
-          onClick={() => handleTagClick(['design', 'ui', 'ux'])}
+          onClick={() => handleTagClick(['design'])}
           className={selectedTag === 'design' ? 'btn btn-tag-active' : 'btn btn-tag'}
         >
           Design
