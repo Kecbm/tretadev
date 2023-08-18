@@ -19,7 +19,7 @@ Uma aplicação **Frontend** utilizando `React`.
 
 <details><summary>Desenvolvimento 🎯</summary>
 <p>
-A idéia da aplicação foi do <a href="https://www.linkedin.com/in/eric-viana/">Eric Viana</a> e a execução foi realizada por mim, <a href="https://www.linkedin.com/in/kecbm/">Klecianny Melo</a>.
+A idéia da aplicação foi do <a href="https://www.linkedin.com/in/eric-viana/">Eric Viana</a> e a codificação foi realizada por mim, <a href="https://www.linkedin.com/in/kecbm/">Klecianny Melo</a>.
 </p>
 </details>
 
