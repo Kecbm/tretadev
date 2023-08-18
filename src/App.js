@@ -77,7 +77,6 @@ function App() {
         )
       );
   
-      console.log('filtered: ', filtered);
       setFilteredIssues(filtered);
     }
   };
