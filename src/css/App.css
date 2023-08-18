@@ -99,6 +99,7 @@ a {
     background-color: #f9c92b;
     color: #42130d;
     font-weight: 700;
+    border: 2px solid #42130d;
 }
 
 .section-cards {
