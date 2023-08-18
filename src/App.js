@@ -256,7 +256,7 @@ function App() {
           {filteredIssues.map(issue => (
             <div className='card' key={issue.id}>
               <div className='card-body'>
-                <a href={issue.html_url} target='_blank' rel="noreferrer">
+                <a href={issue.html_url} target='_blank' rel='noopener noreferrer'>
                 <h3 className='card-title'>{issue.title}</h3>
                 </a>
                 <p className='card-text'>{issue.body}</p>
@@ -274,8 +274,8 @@ function App() {
               </div>
 
               <div className='card-footer'>
-                <a href={issue.user.html_url}><img src={issue.user.avatar_url}  alt={issue.user.login} className='card-author-img' /></a>
-                <p className='card-author-name'>Criada por <a href={issue.user.html_url}>@{issue.user.login}</a></p>
+                <a href={issue.user.html_url} target='_blank' rel='noopener noreferrer'><img src={issue.user.avatar_url}  alt={issue.user.login} className='card-author-img' /></a>
+                <p className='card-author-name'>Criada por <a href={issue.user.html_url} target='_blank' rel='noopener noreferrer'>@{issue.user.login}</a></p>
               </div>
             </div>
           ))}
