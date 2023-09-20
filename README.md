@@ -1,5 +1,7 @@
 <h1 id="top" align="center">Boas vindas ao repositório do Frontend da <a href="https://github.com/lincolixavier/tretadev">Treta Dev</a> 🔥</h1>
 
+![Site da Treta Dev](https://github.com/Kecbm/tretadev/blob/master/src/assets/Site%20da%20Treta.gif)
+
 <h2>Sumário:</h2>
 
 - [O que foi desenvolvido](#summary)
