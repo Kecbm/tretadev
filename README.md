@@ -1,57 +1,57 @@
-<h1 id="top" align="center">Boas vindas ao repositório do Frontend da <a href="https://github.com/lincolixavier/tretadev">Treta Dev</a> 🔥</h1>
+<h1 id="top" align="center">Frontend of <a href="https://github.com/lincolixavier/tretadev">Treta Dev</a> 🔥</h1>
 
 ![Site da Treta Dev](https://github.com/Kecbm/tretadev/blob/master/src/assets/Site%20da%20Treta.gif)
 
-<h2>Sumário:</h2>
+<h2>Summary:</h2>
 
-- [O que foi desenvolvido](#summary)
-- [Tecnologias utilizadas](#tech)
-- [Executar o projeto](#execute)
-- [Próximos passos](#nextSteps)
+- [What was developed](#summary)
+- [Technologies used](#tech)
+- [Execute the project](#execute)
+- [Next steps](#nextSteps)
 
 ---
 
-<h2 id="summary">O que foi desenvolvido 👩‍💻</h2>
+<h2 id="summary">What was developed 👩‍💻</h2>
 
 <br>
 
-Uma aplicação **Frontend** utilizando `React`.
+A **Frontend** application using `React`, `HTML`, `CSS` and `JavaScript`.
 
 <br>
 
-<details><summary>Desenvolvimento 🎯</summary>
+<details><summary>Development 🎯</summary>
 <p>
-A idéia da aplicação foi do <a href="https://www.linkedin.com/in/eric-viana/">Eric Viana</a> e a codificação foi realizada por mim, <a href="https://www.linkedin.com/in/kecbm/">Klecianny Melo</a>.
+The idea for the application was <a href="https://www.linkedin.com/in/eric-viana/">Eric Viana</a> and the coding was done by me, <a href="https://www.linkedin.com/in/kecbm/">Klecianny Melo</a>.
 </p>
 </details>
 
-<details><summary>Frontend das tretas devs 🗂</summary>
+<details><summary>Frontend of bullshit devs 🗂</summary>
 <p>
-<a href="https://tretadev.vercel.app/">Na aplicação</a> você tem acesso a todas as tretas cadastradas no repositório <a href="https://github.com/lincolixavier/tretadev">Treta Dev</a> do <a href="https://github.com/lincolixavier">Lincoli Xavier</a>. É possivel filtrar as tretas por tema, como HTML, Java e JavaScript.
+<a href="https://tretadev.vercel.app/">In application</a> you have access to all the bullshit registered in the repository <a href="https://github.com/lincolixavier/tretadev">Treta Dev</a> of <a href="https://github.com/lincolixavier">Lincoli Xavier</a>. It is possible to filter bullshit by topic, such as HTML, Java and JavaScript.
 </p>
 </details>
 
-<p align="right"><a href="#top">Voltar ao topo ☝</a></p>
+<p align="right"><a href="#top">Back to the top ☝</a></p>
 
 ---
 
-<h2 id="tech">Tecnologias utilizadas 🛠</h2>
+<h2 id="tech">Technologies used 🛠</h2>
 
 <br>
 
-<img title="React" alt="React" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> <img title="HTML" alt="HTML" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> <img title="CSS" alt="CSS" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img title="React" alt="React" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> <img title="HTML" alt="HTML" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> <img title="CSS" alt="CSS" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> <img title="JavaScript" alt="JavaScript" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
-<p align="right"><a href="#top">Voltar ao topo ☝</a></p>
+<p align="right"><a href="#top">Back to the top ☝</a></p>
 
 ---
 
-<h2 id="execute">Executar o projeto 💻</h2>
+<h2 id="execute">Execute the project 💻</h2>
 
 <br>
 
-<details><summary>Aplicação React 🎉</summary>
+<details><summary>React Application 🎉</summary>
 <p>
-Para instalar as dependências e iniciar a aplicação React, execute os comandos na ordem a seguir:
+To install the dependencies and start the React application, run the commands in the following order:
 
 ```bash
   cd tretadev
@@ -72,19 +72,19 @@ Para instalar as dependências e iniciar a aplicação React, execute os comando
 </p>
 </details>
 
-<p align="right"><a href="#top">Voltar ao topo ☝</a></p>
+<p align="right"><a href="#top">Back to the top ☝</a></p>
 
 ---
 
-<h2 id="nextSteps">Próximos passos 🚀</h2>
+<h2 id="nextSteps">Next steps 🚀</h2>
 
 <br>
-O projeto é open-source onde qualquer pessoa da comunidade pode contribuir. Sinta-se a vontade para abrir um PR e desenvolver melhorias ou novas features. Será uma honra ter você como pessoa colaboradora desse repositório!
+The project is open-source where anyone in the community can contribute. Feel free to open a PR and develop improvements or new features. It will be an honor to have you as a contributor to this repository!
 <br>
 <br>
 
-<p align="right"><a href="#top">Voltar ao topo ☝</a></p>
+<p align="right"><a href="#top">Back to the top ☝</a></p>
 
 ---
 
-<p align="center">Projeto desenvolvido por <a href="https://www.linkedin.com/in/kecbm/">Klecianny Melo</a> 😁</p>
+<p align="center">Project developed by <a href="https://www.linkedin.com/in/kecbm/">Klecianny Melo</a> 😁</p>
